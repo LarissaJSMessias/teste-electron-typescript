@@ -1,0 +1,17 @@
+.form {
+    background-color: #383e49;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista{
+  align-items: center;
+  align-self: center;
+}
+
+.isConcluida{
+  text-decoration: line-through;
+}
+

@@ -1,0 +1,85 @@
+//@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+//}
+
+.app {
+  padding: 3rem 10rem;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: #303846;
+  text-align: center;
+
+  img {
+    width: 8rem;
+    animation: rotate 5s linear infinite;
+  }
+
+  h1 {
+    margin: 0;
+  }
+  input {
+    padding-left: 10px;
+    background-color: #fff;
+    outline: none;
+    height: 40px;
+    border: none;
+  }
+
+  button {
+    cursor: pointer;
+    height: 40px;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 0;
+    color: #303846;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  ul {
+    background-color:none;
+    margin: 0;
+    padding-top: 16px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+
+
+}
+
+.App {
+  text-align: center;
+} 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Form {
+  background-color: #383e49;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
